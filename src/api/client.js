@@ -4,7 +4,7 @@ import axios from 'axios';
  * Etherscan API client
  */
 const client = axios.create({
-  baseUrl: 'http://api.etherscan.io:80',
+  baseUrl: 'https://api.etherscan.io:80',
   headers: {
     'Content-Type': 'application/json',
   },
