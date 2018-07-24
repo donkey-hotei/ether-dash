@@ -55,7 +55,7 @@ export const updateMemo = (hash, memo) => (
  */
 export const getTransactions = (address, page) => (dispatch) => {
   dispatch(getTransactionsRequest());
-  client.get(`http://api.etherscan.io/api?address=${address}&page=${page}`)
+  client.get(`https://api.etherscan.io/api?address=${address}&page=${page}`)
     .then((response) => {
       const { data } = response;
       if (data.status === '0') {
