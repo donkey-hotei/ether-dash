@@ -1,0 +1,34 @@
+.Pages {
+  margin: 50px auto;
+  text-align: center
+}
+
+.Pages-button {
+  text-align: center;
+  border: none;
+  border-radius: 16px;
+  background-color: #4997e5;
+  transition: background-color .2s;
+  color: white;
+  cursor: pointer;
+  margin: 10px;
+  width: 44px;
+  height: 34px;
+}
+
+.Pages-button:hover {
+  background-color: #457cb2;
+}
+
+.Pages-button:focus {
+  outline: none;
+}
+
+.Pages-button:disabled {
+  background-color: #1f364d;
+  cursor: not-allowed;
+}
+
+.Pages-info {
+  font-size: 12px;
+}
